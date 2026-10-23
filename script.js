@@ -87,8 +87,8 @@
     if (parts.length) requestAnimationFrame(loop); else running = false;
   }
 
-  // Countdown to 3 Dec (mehndi)
-  var target = new Date(2026, 11, 3, 18, 0, 0).getTime();
+  // Countdown to 4 Dec (baraat arrival)
+  var target = new Date(2026, 11, 4, 12, 30, 0).getTime();
   function tick() {
     var d = Math.max(0, target - Date.now());
     $('#dd').textContent = Math.floor(d / 864e5); $('#hh').textContent = Math.floor(d / 36e5) % 24;

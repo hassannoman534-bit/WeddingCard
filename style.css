@@ -94,3 +94,8 @@ button{font-family:inherit;border:0;background:none}
 .list li.in{transform:none}
 @media(min-width:700px){body{font-size:21px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal,.a1,.a2,.a3,.a4,.a5,.a6,.down,.leaf{opacity:1;transform:none;filter:none}}
+
+.cts{display:flex;flex-direction:column;gap:14px;margin-top:24px}
+.ct{display:block;padding:16px;border:1px solid var(--gold);border-radius:16px;background:#fffdf8;text-decoration:none;color:var(--green)}
+.ct small{display:block;font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.25em;text-transform:uppercase;opacity:.85}
+.ct b{display:block;margin-top:4px;font-family:'Cinzel',serif;font-size:1.35rem;letter-spacing:.08em;color:var(--gold)}
